@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>The Questions</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/addons/p5.dom.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/addons/p5.sound.js"></script>
+    <script type="text/javascript" src="sketch.js"></script>
+  </head>
+  <style>
+#myProgress {
+  width: 100%;
+  background-color: #ddd;
+}
+
+#myBar {
+  width: 0%;
+  height: 30px;
+  background-color: #4CAF50;
+  text-align: center;
+  line-height: 30px;
+  color: black;
+}
+</style>
+  <body>
+	<h2 id="noanswer">unanswered questions: 0</h2>
+	<h2 id="answer">answered questions: 0</h2>
+	<h2 id="total">total questions: 0</h2>
+	<div id="myProgress">
+		<div id='myBar'>0%</div>
+	</div>
+	<button id="button">Reset</button>
+  </body>
+</html>
